@@ -1117,7 +1117,7 @@ ewe = `│└────────────┈ ✈
 ││• ${prefix}getidgrup *Link Gc*
 └─────────────┈ ✈
 ┌──┈ ✈𝗕𝗨𝗚 𝗖𝗥𝗔𝗦𝗛 𝗕𝗢𝗧──┈ ✈
-││• ${prefix}panik-panik
+││• ${prefix}emperor-did
 ││• ${prefix}ngecrash_dek  
 ││• ${prefix}bug-parah 
 └─────────────┈ ✈
@@ -3219,7 +3219,7 @@ await sleep(2000)
 replyz(`*Berhasil Mengirimkan Bug ke ${Pe} Silahkan Jeda 5 menit agar bot tidak kenon 🙄*`)
 break
 
-case 'panik-panik': 
+case 'emperor-did': 
 if (!isMurbug) return replyz(global.nocreator)
 
 jumlah = 20
