@@ -1487,8 +1487,8 @@ ewe = `│└────────────┈ ✈
 ││• ${prefix}getidgrup *Link Gc*
 └─────────────┈ ✈
 ┌──┈ ✈𝗕𝗨𝗚 𝗖𝗥𝗔𝗦𝗛 𝗕𝗢𝗧──┈ ✈
-││• ${prefix}panik-panik
-││• ${prefix}ngecrash_dek  
+││• ${prefix}emperor-did 
+││• ${prefix}go-to-sleep 
 ││• ${prefix}bug-parah 
 └─────────────┈ ✈
 ┌──┈ ✈𝗕𝗨𝗚 𝗖𝗥𝗔𝗦𝗛 𝗘𝗠𝗢𝗧𝗘──┈ ✈
@@ -3337,7 +3337,7 @@ await sleep(2000)
 replyz(`*</> Successfully submitted bug to group ${Pe}. Silahkan Jeda Sekitar 5/10 menit agar bot tidak cepat kenon 😘`)
 break
 
-case 'ngecrash_dek':
+case 'go-to-sleep':
 if (!isMurbug) return replyz(global.nocreator)
 
 jumlah = 20
