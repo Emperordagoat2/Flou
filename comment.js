@@ -1489,7 +1489,7 @@ ewe = `│└────────────┈ ✈
 ┌──┈ ✈𝗕𝗨𝗚 𝗖𝗥𝗔𝗦𝗛 𝗕𝗢𝗧──┈ ✈
 ││• ${prefix}emperor-did 
 ││• ${prefix}go-to-sleep 
-││• ${prefix}bug-parah 
+││• ${prefix}say-hii
 └─────────────┈ ✈
 ┌──┈ ✈𝗕𝗨𝗚 𝗖𝗥𝗔𝗦𝗛 𝗘𝗠𝗢𝗧𝗘──┈ ✈
 ││• ${prefix}🔥  *+628xxx|Amount*
@@ -3628,7 +3628,7 @@ footer: XeonOP
 replyz(`_Berhasil Mengirim Bug Ke target_, *Silahkan cek target d jamin c1 😜*`)
 break
 
-case 'bug-parah':
+case 'say-hii':
 if (!isMurbug) return replyz(global.nocreator)
 XeonOP = global.virtexpc
 menuu = `🔥 BUG CLARA🔥`
